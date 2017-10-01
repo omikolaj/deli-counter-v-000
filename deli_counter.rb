@@ -8,7 +8,7 @@ def line (arr)
     arr.each_with_index { |customer, index| message+= "#{index+1}. #{customer}" }
     puts message
   end
-  
+
 end
 
 def take_a_number(katz_deli, customer)
