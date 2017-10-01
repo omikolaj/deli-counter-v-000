@@ -6,8 +6,9 @@ def line (arr)
   else
     message = "The line is currently: "
     arr.each_with_index { |customer, index| message+= "#{index+1}. #{customer}" }
+    puts message
   end
-  puts message
+  
 end
 
 def take_a_number(katz_deli, customer)
