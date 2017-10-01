@@ -6,7 +6,7 @@ def line (arr)
   else
     message = "The line is currently:"
     arr.each_with_index { |customer, index| message+= " #{index+1}. #{customer}" }
-    message
+    puts message
   end
 
 end
