@@ -10,10 +10,10 @@ def line (arr)
   end
 end
 
-def take_a_number(katz_deli, customer)
-
+def take_a_number(arr, customer)
+  arr << customer
 end
 
-def now_serving (katz_deli)
+def now_serving (arr)
 
 end
