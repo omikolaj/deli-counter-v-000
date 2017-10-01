@@ -1,11 +1,11 @@
 # Write your code here.
 
-def line (katz_deli)
-  if(katz_deli.size == 0)
+def line (arr)
+  if(arr.size == 0)
      puts "The line is currently empty."
   else
     message = "The line is currently: "
-    katz_deli.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
+    arr.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
 
   end
   binding.pry
