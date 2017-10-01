@@ -12,14 +12,11 @@ end
 
 def take_a_number(arr, customer)
   message=""
-  if(arr.size < 1)
+  
     arr << customer
     arr.each_with_index { |name, index| message="Welcome, #{name}. You are number #{index+1} in line."}
     puts message
-  elsif(arr.size > 0)
-    arr<<customer
-
-  end
+  
 end
 
 def now_serving (arr)
