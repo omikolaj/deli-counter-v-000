@@ -23,5 +23,5 @@ def now_serving (arr)
   else
     arr = arr.shift
   end
-  
+
 end
