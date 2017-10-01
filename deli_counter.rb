@@ -1,12 +1,12 @@
 # Write your code here.
-def line
+def line (katz_deli)
+  
+end
+
+def take_a_number(katz_deli, customer)
 
 end
 
-def take_a_number
-
-end
-
-def now_serving
+def now_serving (katz_deli)
 
 end
