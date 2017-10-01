@@ -9,6 +9,7 @@ def line (arr)
     message += "#{index+1}. #{customer}"
   end
 end
+end
 
 def take_a_number(katz_deli, customer)
 
