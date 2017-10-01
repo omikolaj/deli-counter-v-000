@@ -1,7 +1,7 @@
 # Write your code here.
 def line (katz_deli)
   if(katz_deli.size == 0)
-    "The line is currently empty"
+    "The line is currently empty."
   else
     counter = 1
     until (counter == katz_deli.size)
