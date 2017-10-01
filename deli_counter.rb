@@ -18,7 +18,7 @@ def take_a_number(arr, customer)
     puts message
   elsif(arr.size > 0)
     arr<<customer
-    
+
   end
 end
 
