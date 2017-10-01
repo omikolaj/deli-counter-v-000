@@ -14,6 +14,7 @@ def take_a_number(arr, customer)
   if(arr.size == 0)
     arr << customer
     arr.each_with_index { |name, index| message="Welcome, #{name}. You are number #{index+1} in line."}
+    puts message
   elsif(arr.size > 0)
     arr<<customer
   end
