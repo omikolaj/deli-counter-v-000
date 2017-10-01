@@ -7,7 +7,6 @@ def line (arr)
     message = "The line is currently: "
     arr.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
   end
-  binding.pry
 end
 
 def take_a_number(katz_deli, customer)
