@@ -18,5 +18,5 @@ def take_a_number(arr, customer)
 end
 
 def now_serving (arr)
-
+  
 end
