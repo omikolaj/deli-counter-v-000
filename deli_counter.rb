@@ -13,8 +13,9 @@ end
 def take_a_number(arr, customer)
   if(arr.size == 0)
     arr << customer
+  end
 end
 
 def now_serving (arr)
-  
+
 end
