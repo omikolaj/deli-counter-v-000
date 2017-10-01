@@ -4,7 +4,7 @@ def line (katz_deli)
      puts "The line is currently empty."
   else
     message = "The line is currently: "
-    katz_deli.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
+    katz_deli.each_with_index { |customer, index| message+= "#{index+1}. #{customer}" }
   end
 end
 
