@@ -6,8 +6,9 @@ def line (katz_deli)
   else
     message = "The line is currently: "
     katz_deli.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
-    binding.pry
+    
   end
+  binding.pry
 end
 
 def take_a_number(katz_deli, customer)
