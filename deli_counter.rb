@@ -12,11 +12,9 @@ end
 
 def take_a_number(arr, customer)
   message=""
-
-    arr << customer
-    arr.each_with_index { |name, index| message="Welcome, #{name}. You are number #{index+1} in line."}
-    puts message
-
+  arr << customer
+  arr.each_with_index { |name, index| message="Welcome, #{name}. You are number #{index+1} in line."}
+  puts message
 end
 
 def now_serving (arr)
