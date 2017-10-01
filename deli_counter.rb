@@ -11,9 +11,10 @@ def line (arr)
 end
 
 def take_a_number(arr, customer)
-  arr << customer
+  if(arr.size == 0)
+    arr << customer
 end
 
 def now_serving (arr)
-
+  
 end
