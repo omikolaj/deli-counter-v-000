@@ -5,7 +5,8 @@ def line (arr)
      puts "The line is currently empty."
   else
     message = "The line is currently: "
-    arr.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
+    arr.each_with_index do |customer, index|
+    message+= "#{index+1}. #{customer}" 
   end
 end
 
