@@ -1,10 +1,12 @@
 # Write your code here.
+require 'pry'
 def line (katz_deli)
   if(katz_deli.size == 0)
      puts "The line is currently empty."
   else
     message = "The line is currently: "
-    katz_deli.each_with_index do { |customer, index| puts message+= "#{index+1}. #{customer}" }
+    katz_deli.each_with_index { |customer, index| puts message+= "#{index+1}. #{customer}" }
+    binding.pry
   end
 end
 
